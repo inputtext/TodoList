@@ -1,6 +1,6 @@
 @font-face {
     font-family: victor;
-    src: url(./fonts/VictorMono-Bold.ttf);
+    src: url(VictorMono-Bold.ttf);
 }
 *{
     margin: 0%;
@@ -43,7 +43,7 @@ input{
 }
 .custom-cursor-zone,
 .custom-cursor-zone *{
-    cursor: url("./images/cursor-32.png") 0 0, pointer !important;
+    cursor: url("cursor-32.png") 0 0, pointer !important;
 }
 .todo-list{
     margin: 10px 0px 0px 90px;
