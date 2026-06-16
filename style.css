@@ -1,0 +1,90 @@
+@font-face {
+    font-family: victor;
+    src: url(./fonts/VictorMono-Bold.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: victor;
+
+}
+input{
+    border-radius: 32px;
+    height: 50px;
+    padding: 10px 20px;
+    border: 7px ridge burlywood;
+}
+#add{
+    padding: 10px 20px;
+    border: 7px ridge burlywood;
+    border-radius: 32px;
+    cursor: pointer;
+}
+#edit{
+    padding: 10px 20px;
+    border: 7px ridge burlywood;
+    border-radius: 32px;
+}
+#delete{
+    padding: 10px 20px;
+    border: 7px ridge crimson;
+    border-radius: 32px;
+    background-color: rgb(235, 108, 108)
+    ;
+}
+.custom-cursor-zone,
+.custom-cursor-zone *{
+    cursor: url("./images/cursor-32.png") 0 0, pointer !important;
+}
+.todo-list{
+    margin: 10px 0px 0px 90px;
+    gap: 100px;
+    height: 100%;
+    width: 50%;
+}
+.li{
+    display: flex;
+    gap: 10px;
+    align-items: center ;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 32px;
+    gap: 50px;
+}
+.todo1{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 32px;
+}
+.btn{
+    width: 90px;
+    padding: 2px 30px;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    border:1px solid brown;
+}
+.edit{
+    margin-left: 10px;
+    background-color: lavenderblush;
+}
+.del{
+    background-color: rgb(235, 81, 81);
+}
+h3{
+    margin: 10px;
+    padding: 10px;
+    border: 1px purple solid ;
+    border-radius: 10px;
+}
+.li h3{
+    flex:1;
+}
